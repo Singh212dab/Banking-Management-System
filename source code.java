@@ -3,7 +3,7 @@ import java.sql.*;
 import javax.swing.JOptionPane;
 
 //Home Page:
-Staff Login Button-
+// Staff Login Button-
 this.dispose();
 new Staff_Login().setVisible(true);
 
@@ -287,7 +287,7 @@ this.dispose();
 new Cust_Details().setVisible(true);
 
 //Customer Add Page:
-Proceed Button-
+// Proceed Button
 int acc=Integer.parseInt(jTextField1.getText());
         String name=jTextField2.getText();
         String address=jTextField3.getText();
@@ -315,7 +315,7 @@ int acc=Integer.parseInt(jTextField1.getText());
 this.dispose();
 new Cust_Details().setVisible(true);
 
-formWindowOpened-
+// form_Window_display-
 try{
             Class.forName("java.sql.Driver");
             Connection conn=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root"," ");
